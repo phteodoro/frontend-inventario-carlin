@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: 0;
+}
+body{
+    font: 400 20px 'Roboto', sans-serif;
+    background: #f0f0f5;
+    -webit-font-smoothing: antialiased;
+}
+select{
+    width: 104%;
+    padding: 8px;
+}
+input, button, textarea, select{
+    font: 400 14px 'Roboto', sans-serif;
+}
+p{
+    color: rgb(0, 0, 0);
+    font-size: 18px;  
+}
+p:hover{
+    background-color: #d3c8b4;
+
+}
+h1{
+    font-size: 40px;
+}
+.principal{
+    width: 80%;
+    padding-top: 10px;
+    background-color:#d3c8b4;
+    height: 100vh;
+    border: black;
+}
+  
+.dashboard-container{
+    display: flex;
+    height: '100vh';
+    overflow: 'scroll initial';
+}
+table{
+    font: 400 14px 'Roboto', sans-serif; 
+    font-size: 27px;
+    margin: 0 auto;
+    background-color: #5d5c49;
+    border-collapse:collapse ;
+    border: rgb(49, 49, 49);
+}
+th, td{    
+    text-align: left;
+    border-bottom: 1px solid black;
+    padding: 5px;
+}
+button{
+    cursor: pointer;
+    margin-top: 2px;
+}
+form input{
+    width: 100%;
+    border: 1px solid #dcdce6;
+    border-radius: 5px;
+    margin:3px;
+    padding:5px;
+}
+.form-cadastro{
+    width: 50%;
+    margin: 0 auto;
+}
+.form-cadastro input{
+    padding: 10px;
+}
+.menu{
+    border-top: 2px solid #3d3d34;
+}
+.principal{
+    border: 2px solid #3d3d34;
+}
+.menu{
+    width: 20%;
+    padding-top: 10px;
+    background-color: #fff3db;
+    height: 100vh;
+}
+.menu a{
+    padding: 7px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    color: rgb(0, 0, 0);
+    background-color: #5d5c49;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 3px;
+    justify-content: center;
+    font-size: 25px;
+}
+.menu a:hover{
+    background-color: #fff3db;
+    color: rgb(0, 0, 0);
+}
+.head{
+    border-bottom: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+}
+.logoff{
+    position: absolute;
+    right: 0;
+    padding-right: 20px;
+}
+.button_new{
+    width: 79%;
+    margin: 0 auto;
+    text-align: right;
+}
+.button_save{
+    margin-top:10px;
+    margin-bottom:10px;
+    width: 104%;
+    background-color: #00ff88;
+    border: 0;
+    border-radius: 3px;
+    color: #FFF;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    transition: filter 0.2s;
+    padding: 10px   ;
+}
+.button_save:hover{
+    filter: brightness(90%);
+}
+/* section{
+    margin-left:373px;
+} */
